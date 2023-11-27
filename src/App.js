@@ -12,9 +12,11 @@ import Teamspot from "./component/cards1";
 import Teamspot1 from "./component/c1";
 import Teamspot2 from "./component/c2";
 import Teamspot3 from "./component/c3";
-
+const context = useContext(MyProvider)
 export default function App() {
   return (
+    <>
+    <MyProvider.Provider value={data}>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/LoginForm" element={<LoginForm />} />
@@ -32,5 +34,7 @@ export default function App() {
       <Route path="/card3" element={<Teamspot3/>} />
       
     </Routes>
+        </MyProvider.Provider>
+        </>
   );
 }
