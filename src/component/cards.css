@@ -1,0 +1,13 @@
+.bord{
+    background-color:grey;
+}
+.cards2{
+    text-decoration: none;
+    background-color: black;
+}
+.body{
+    background-color: black;
+}
+.movie{
+    display: flex;
+}

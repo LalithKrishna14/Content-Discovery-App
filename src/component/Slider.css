@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap");
+
+
+
+.container {
+	padding-bottom: 3rem;
+}
+
+.title_wrapper {
+	position: absolute;
+	width: 100%;
+	left: 2rem;
+	bottom: 2rem;
+	padding: 2px 40px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.title_wrapper h1 {
+    width: 60%;
+	/* margin: 300px auto; */
+	
+}
+button {
+	margin-bottom: 200px;
+	background: #f40612;
+	color: #fff;
+	font-size: 18px;
+	padding: 0.5rem 3rem;
+	
+}

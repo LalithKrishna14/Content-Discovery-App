@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.home-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 1em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
